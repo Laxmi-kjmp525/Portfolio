@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<style>
+   .contact_us{
+        width:100%;
+       
+    }
+  .contact_us form{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .footer h3{
+    margin-bottom: 55pxpx;
+  }
+  .footer .social_icons{
+    display: flex;
+    margin-bottom: 55pxpx;
+
+  }
+  .footer .social_icons a {
+   width: 50px;
+   height: 50px;
+   border: 1px solid rgb(0,0,0,.1);
+   border-radius: 50%;
+   place-items:center;
+   display: grid;
+   text-decoration: none;
+   transition-duration: 100ms;margin:0 10px ;
+
+  }
+  nav{
+    position: sticky !important;
+    top:0;
+    background-color:hsl(142, 33%, 50%);
+    z-index: 99;
+    backdrop-filter: blur(5px);
+  }
+  @media (max-width:768px) {
+    .contact_us form{
+
+    
+    width: 90%;
+    }
+  } 
+
+</style>
+<body>
+
+   <div class="container">
+    {{>nav}}
+    <div class="header_section text-center">
+      
+        <Strong>LAXMI KUMARI</Strong>
+        <h1>Bachelor of Technology Computer Science and Engineering</h1>
+        <p>Roll No: 2206120 Contact   Details: 9155526527 E-mail: laxmikjmp@gamil.comPermanent Address: Vill: Dharhara, Post: Dharhara,
+          P.S: Dharhara, Dist: Munger, Bihar
+          Pincode: 811212
+        </p>
+        <img src="https://localhost/portfolio/google.png">
+    </div>
+    
+    <div class="hero_section" id="home">
+      
+        <img src="https://icons8.com/icon/sKuLv3O52Wfr/developer" alt="hero image" width="500px" /> 
+        <div class="bg-primary p-5 text-center text-light">
+          <p>
+          CAREER OBJECTIVE
+          To  become a successful expert in the field of Information Technology by channelizing my technical knowledge and skills to ensure personal and professional growth and to contribute to the prosperity of the organization.
+          </p>
+        </div>
+    </div>
+    <div class="row card_state">
+     <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <i class="fa fa-code"></i> 
+        </div> 
+        <div class="card-title text-center">
+           <h4>Frontend development</h4> 
+           <p>contributed to 10+ projects
+           </p>
+        </div>
+        <div class="card-body text-center">
+            <h5 class="text-primary">Uses</h5>
+            <p>HTML,CSS,Javascript,Git,Reactjs,Bootstrap</p>
+            <hr class="mb-4">
+            <h6 class="text-primary">Dev Tools:</h6>
+            <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush">
+  <li class="list-group-item">VS Code</li>
+  <li class="list-group-item"></li>
+  <li class="list-group-item">Bootstrap</li>
+  <li class="list-group-item"></li>
+  <li class="list-group-item">Github</li>
+  <li class="list-group-item">Terminal</li>
+</ul>
+            </ul>
+        </div>
+       </div> 
+     </div>  
+     <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <i class="fa fa-code" ></i> 
+        </div> 
+        <div class="card-title text-center">
+           <h4>Backend web development</h4> 
+           <p>contributed to 5+ projects
+           </p>
+        </div>
+        <div class="card-body text-center">
+            <h5 class="text-primary">Uses</h5>
+            <p>For Frameworks uses Nodejs</p>
+            <hr class="mb-4">
+            <h6 class="text-primary">Dev Tools:</h6>
+            <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush">
+  <li class="list-group-item"></li>
+  <li class="list-group-item">Mongodb</li>
+  <li class="list-group-item">Mysql</li>
+  <li class="list-group-item">Oracle</li>
+  <li class="list-group-item"></li>
+  <li class="list-group-item"></li>
+</ul>
+            </ul>
+        </div>
+       </div> 
+     </div>   
+     <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <i class="fa fa-code" ></i> 
+        </div> 
+        <div class="card-title text-center">
+           <h4>Skills</h4> 
+           <p>
+           </p>
+        </div>
+        <div class="card-body text-center">
+            <h5 class="text-primary"></h5>
+            <p> </p>
+            <hr class="mb-4">
+            <h6 class="text-primary">Languages</h6>
+            <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush">
+  <li class="list-group-item">C</li>
+  <li class="list-group-item">C++</li>
+  <li class="list-group-item">Java</li>
+  <li class="list-group-item">Python</li>
+  <li class="list-group-item"></li>
+  <li class="list-group-item"></li>
+</ul>
+            </ul>
+        </div>
+       </div> 
+     </div>    
+    </div>
+
+    <div class="service text-center" id="service">
+      <h2>Our Services</h2>
+      <p></p>
+      <div class="row">
+      <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/appdev.png" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>App development</h4> 
+           <p>
+           </p>
+            <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+       <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>Frontend web development</h4> 
+           <p>
+           </p>
+            <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+       <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>Backend web development</h4> 
+           <p>
+           </p>
+            <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+       <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/appdevelopment.png" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>Machine learning</h4> 
+           <p>
+           </p>
+            <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" <a href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main"></a> class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+       <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>Skills</h4> 
+           <div><p>c++,c,Data Structure and Algorithm,Java, python</p>
+           </div>
+           <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+       <div class="col-12 col-md-4 col-lg-4">
+       <div class="card border-0 p-5 shadow">
+        <div class="card-header bg-white border-0">
+          <img class="img-fluid" src="public/images/" alt="app"> 
+        </div> 
+        <div class="card-title text-center">
+           <h5>Member of hackslash web development team</h4> 
+           <p>
+           </p>
+            <a class="btn btn-primary" href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main" class="list-group-item list-group-item-action active" aria-current="true">
+    Links
+  </a>
+           {{!-- <button type="button" class="btn btn-primary">learn more</button> --}}
+           </div>
+        </div>
+       </div> 
+     </div>   
+    </div>
+    <hr class="mt-5 mb-5">
+    <div class="work_section">
+      <h3>I'm proud to be a part of hackslash team of Nit Patna:</h3>
+      <div class="row">
+      <div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/" class="border" alt="redstamp">
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/" class="border" alt="redstamp">
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/" class="border" alt="redstamp">
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/" class="border" alt="redstamp">
+      </div>
+<div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/redstamp.svg" class="border" alt="redstamp">
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-5">
+        <img src="public/images/" class="border" alt="redstamp">
+      </div>
+    </div>
+    <hr class="mt-5 mb-5">
+    <div class="contact_us" id="contact" style="display:none;">
+      <form method="POST" action="/contactdata"  >
+      <h2>Contact Us</h2>
+      <p>Contact the help team</p>
+      <div class="mb-3">
+      <label for="username" class="form-label">user name</label>
+      <input name="user" type="text" class="form-control" id="username">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Email</label>
+      <input name="email" type="email" class="form-control" id="exampleInputPassword1">
+    </div>
+  
+  <div class="mb-3">
+    <label for="" class="mb-2">Type your message here...</label>
+  <textarea name="msg" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div>
+  
+
+  <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+    </div>
+    <div class="footer bg-light" id="about" >
+      <img src="public/images/logoo.png" alt="logo">
+      <h3>Living, learning, & leaving up one day at a time</h3>
+      <div class="social_icons">
+        <a href=""><i class="fa fa-facebook" ></i></a>
+         <a href=""><i class="fa fa-instagram" ></i></a>
+          <a href=""><i class="fa fa-github" ></i></a>
+           <a href="https://github.com/Laxmi-kjmp525/cardcontainer/tree/main"><i class="fa fa-linkedin" ></i></a>
+      </div>
+      <p>
+        Handcrafted by me 
+      </p>
+    </div>
+  
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
